@@ -1,12 +1,15 @@
 package com.project.coches.persistance.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 
 /*
  *Entidades de marca coche
  */
 
+@Getter @Setter
 @Entity
 @Table(name = "marca_coche")
 public class MarcaCocheEntity {
